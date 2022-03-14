@@ -10,6 +10,7 @@ Space complexity: Describes how much additional memory an algorithm needs depend
 
 >> O(1)
 constant time, independent of number of input elements n
+e.g. access an element in an array  array[i]
 
 >> O(n)
 
