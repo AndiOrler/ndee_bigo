@@ -1,0 +1,23 @@
+THEORY
+
+//Complexity
+
+Time complexity: Describes the change of execution time of an algorithm depending on the change of the size of the input data
+
+Space complexity: Describes how much additional memory an algorithm needs depending on the size of the input data
+
+//Complexity classes
+
+>> O(1)
+constant time, independent of number of input elements n
+
+>> O(n)
+
+
+>> O(n²)
+
+
+>> O(log n)
+
+
+>> O(n log n)
