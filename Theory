@@ -13,7 +13,8 @@ constant time, independent of number of input elements n
 e.g. access an element in an array  array[i]
 
 >> O(n)
-
+Linear complexity, if input n is doubled, the effort is double as well
+e. g. summing elements of an array
 
 >> O(n²)
 
