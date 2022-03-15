@@ -17,7 +17,9 @@ Linear complexity, if input n is doubled, the effort is double as well
 e. g. summing elements of an array
 
 >> O(n²)
-
+The effort increases linear squared compared to the number of input elements. If the number of input elments doubles,
+the effort is times four.
+e.g. simple sorts like insertion, selection or bubble sort.
 
 >> O(log n)
 
