@@ -6,6 +6,12 @@ Time complexity: Describes the change of execution time of an algorithm dependin
 
 Space complexity: Describes how much additional memory an algorithm needs depending on the size of the input data
 
+Further:
+The effort of an algorithm can contain constants or elements of lower complexity classes.
+Both are irrelevant for the big O notation, since both are no longer important as n becomes very large.
+
+Depending on how the curve looks, higher complexity classes can have lower effort up to a certain point.
+
 //Complexity classes
 
 >> O(1)

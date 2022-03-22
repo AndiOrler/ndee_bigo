@@ -15,7 +15,7 @@ public class App {
 
         //O(n²)
         //steadily increasing times four
-        //quadraticComplexity();
+        quadraticComplexity();
 
     }
 
