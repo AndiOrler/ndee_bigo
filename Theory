@@ -28,6 +28,8 @@ the effort is times four.
 e.g. simple sorts like insertion, selection or bubble sort.
 
 >> O(log n)
-
+effort increases more in the beginning an then by a constant amount (roughly).
+effort increases by 1 second from n 1000 to 2000 and also for 1 second to 4000.
+e.g. binary search
 
 >> O(n log n)

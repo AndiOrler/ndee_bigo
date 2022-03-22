@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
@@ -15,7 +16,12 @@ public class App {
 
         //O(n²)
         //steadily increasing times four
-        quadraticComplexity();
+        //quadraticComplexity();
+
+        //O(log n)
+        //almost constant increase after a while
+        //logarithmicComplexity();
+
 
     }
 
@@ -53,6 +59,17 @@ public class App {
             int[] ar = createUnsortedArray(n);
             long time = System.nanoTime();
             insertionSort(ar);
+            time = System.nanoTime() - time;
+
+            System.out.printf("n = %d -> time = %d ns%n", n, time);
+        }
+    }
+
+    static void logarithmicComplexity() {
+        for (int n = 32; n <= 65536; n *= 2){
+            int[] ar = createUnsortedArray(n);
+            long time = System.nanoTime();
+            Arrays.binarySearch(ar, 0);
             time = System.nanoTime() - time;
 
             System.out.printf("n = %d -> time = %d ns%n", n, time);
